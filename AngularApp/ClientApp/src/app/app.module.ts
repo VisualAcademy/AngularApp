@@ -16,6 +16,7 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
 import { TechListComponent } from './components/TechList/TechListComponent';
 import { CopyrightComponent } from './components/Copyright/CopyrightComponent';
 import { AngularHelloWorldComponent } from './components/AngularHelloWorld/AngularHelloWorldComponent';
+import { QuickStartComponent } from './components/quickstart/quickstart.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { AngularHelloWorldComponent } from './components/AngularHelloWorld/Angul
 
     TechListComponent,
     CopyrightComponent,
-    AngularHelloWorldComponent, 
+    AngularHelloWorldComponent,
+
+    QuickStartComponent,
 
   ],
   imports: [
@@ -42,6 +45,9 @@ import { AngularHelloWorldComponent } from './components/AngularHelloWorld/Angul
       { path: 'TechList', component: TechListComponent },
       { path: 'Copyright', component: CopyrightComponent },
       { path: 'AngularHelloWorld', component: AngularHelloWorldComponent },
+
+      { path: 'QuickStart', component: QuickStartComponent },
+
     ])
   ],
   providers: [
