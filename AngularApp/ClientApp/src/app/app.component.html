@@ -1,6 +1,19 @@
 <body>
   <app-nav-menu></app-nav-menu>
   <div class="container">
-    <router-outlet></router-outlet>
+    <div class="row">
+      <div class="col-md-2">
+        <ul>
+          <li><a [routerLink]="['/']">Home</a></li>
+          <li><a [routerLink]="['/AngularHelloWorld']">HelloWorld</a></li>
+          <li><a [routerLink]="['/Copyright']">Copyright</a></li>
+          <li><a [routerLink]="['/TechList']">TechList</a></li>
+          <li><a [routerLink]="['/QuickStart']">QuickStart</a></li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   </div>
 </body>
