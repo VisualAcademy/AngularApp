@@ -1,0 +1,14 @@
+Angular 2020 개발 환경 구축 및 시작하기
+
+개발 환경 구축
+- Node.js와 NPM 설치
+- Visual Studio Code 설치
+- Git 설치
+- Angular CLI 설치
+- Visual Studio 설치
+	- .NET Core SDK 설치
+
+프로젝트 생성
+- Angular CLI: ng new
+- Visual Studio 2019: new project
+- DotNet CLI: dotnet new angular 
